@@ -1,0 +1,18 @@
+{
+  "analyzedAt": "2026-03-22T18:38:58.937Z",
+  "projectPath": "T:\\repos\\interactive-project-analyzer",
+  "fileCount": 5,
+  "edgeCount": 3,
+  "circularCount": 0,
+  "extensionBreakdown": {
+    "css": 2,
+    "tsx": 2,
+    "ts": 1
+  },
+  "externalDependencies": [],
+  "warnings": {
+    "skipped": [
+      "vite"
+    ]
+  }
+}

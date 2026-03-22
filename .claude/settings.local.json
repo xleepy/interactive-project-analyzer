@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/analyze.mjs . --out src/data/analysis)"
+    ]
+  }
+}

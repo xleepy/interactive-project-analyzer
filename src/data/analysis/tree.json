@@ -1,0 +1,83 @@
+{
+  "name": "",
+  "type": "folder",
+  "path": "",
+  "children": [
+    {
+      "name": "src",
+      "type": "folder",
+      "path": "src",
+      "children": [
+        {
+          "name": "App.css",
+          "type": "file",
+          "path": "src/App.css",
+          "ext": "css",
+          "imports": [],
+          "importedBy": [
+            "src/App.tsx"
+          ]
+        },
+        {
+          "name": "App.tsx",
+          "type": "file",
+          "path": "src/App.tsx",
+          "ext": "tsx",
+          "imports": [
+            "src/App.css"
+          ],
+          "importedBy": [
+            "src/index.tsx"
+          ]
+        },
+        {
+          "name": "index.css",
+          "type": "file",
+          "path": "src/index.css",
+          "ext": "css",
+          "imports": [],
+          "importedBy": [
+            "src/index.tsx"
+          ]
+        },
+        {
+          "name": "index.tsx",
+          "type": "file",
+          "path": "src/index.tsx",
+          "ext": "tsx",
+          "imports": [
+            "src/App.tsx",
+            "src/index.css"
+          ],
+          "importedBy": []
+        }
+      ],
+      "imports": [
+        "src/App.css",
+        "src/App.tsx",
+        "src/index.css"
+      ],
+      "importedBy": [
+        "src/App.tsx",
+        "src/index.tsx"
+      ]
+    },
+    {
+      "name": "vite.config.ts",
+      "type": "file",
+      "path": "vite.config.ts",
+      "ext": "ts",
+      "imports": [],
+      "importedBy": []
+    }
+  ],
+  "imports": [
+    "src/App.css",
+    "src/App.tsx",
+    "src/index.css"
+  ],
+  "importedBy": [
+    "src/App.tsx",
+    "src/index.tsx"
+  ]
+}

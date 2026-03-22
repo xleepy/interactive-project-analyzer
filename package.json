@@ -13,13 +13,19 @@
     "@mediapipe/camera_utils": "^0.3.1675466862",
     "@mediapipe/drawing_utils": "^0.3.1675466124",
     "@mediapipe/hands": "^0.4.1675469240",
+    "@react-three/fiber": "^9.5.0",
+    "@react-three/xr": "^6.6.29",
+    "@types/three": "^0.183.1",
+    "@use-gesture/react": "^10.3.1",
     "madge": "^8.0.0",
-    "solid-js": "^1.9.11"
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "three": "^0.183.2"
   },
   "devDependencies": {
     "@types/node": "^24.12.0",
+    "@vitejs/plugin-react": "^6.0.1",
     "typescript": "~5.9.3",
-    "vite": "^8.0.1",
-    "vite-plugin-solid": "^2.11.11"
+    "vite": "^8.0.1"
   }
 }
